@@ -1,7 +1,7 @@
-# how to run and setup websocket backend implementation locally
+# How to run and setup websocket backend implementation locally
 1.install python higher than 3.7
 2.install the 'websocket' library
-3. pip install websockets
+3.pip install websockets
 ## Create a websocket server
 1.Create a new folder in vs code name is 'websocket_server.py' in desktop to folder 
 2.implement the websocket server in the path of the specific folder
@@ -20,11 +20,11 @@
 1.Type: Type of response (echo, reversed, count_last_char).
 2.Message: The actual message or the reversed message.
 3.Count: Count of occurrences of the last character (if applicable).
-###### echo with delay
+####### echo with delay
 1.{"type": "echo", "message": "The quick brown fox jumped over the lazy dog o"}
-####### Reversed message
+######## Reversed message
 1.{"type": "reversed", "message": "o yzal eht revo depmuj xof nworb kciuq ehT"}
-######## Count of last character
+######### Count of last character
 1.{"type": "count_last_char", "count": 4}
 
 
