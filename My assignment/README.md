@@ -1,4 +1,4 @@
-# how to run and setup websocket backend implementation locally
+# How to run and setup websocket backend implementation locally
 1.install python higher than 3.7
 2.install the 'websocket' library
 3. pip install websockets
